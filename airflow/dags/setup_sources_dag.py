@@ -10,7 +10,6 @@ import os
     tags=['infrastructure', 'sources-setup']
 )
 def setup_sources_dag():
-
     @task
     def run_database_setup(conn_id: str, db_folder: str, sql_files: list):
 
