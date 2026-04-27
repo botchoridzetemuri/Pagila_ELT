@@ -18,7 +18,7 @@ x-airflow-common:
     AIRFLOW__CORE__LOAD_EXAMPLES: 'False'
     AIRFLOW__CORE__EXECUTION_API_SERVER_URL: 'http://airflow-apiserver:8080/execution/'
     AIRFLOW__SCHEDULER__ENABLE_HEALTH_CHECK: 'true'
-    _PIP_ADDITIONAL_REQUIREMENTS: apache-airflow-providers-snowflake apache-airflow-providers-postgres apache-airflow-providers-common-sql
+    _PIP_ADDITIONAL_REQUIREMENTS: apache-airflow-providers-snowflake apache-airflow-providers-postgres apache-airflow-providers-common-sql apache-airflow-providers-airbyte
     AIRFLOW_CONFIG: '/opt/airflow/config/airflow.cfg'
   volumes:
    - ./airflow/dags:/opt/airflow/dags
