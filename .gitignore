@@ -1,1 +1,6 @@
 .env
+
+airflow/logs/
+airflow/dags/__pycache__/
+airflow/config/
+airbyte/abctl.exe
